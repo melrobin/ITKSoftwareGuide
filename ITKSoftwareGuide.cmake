@@ -32,7 +32,7 @@ if (NOT ${USE_SYSTEM_ITK})
 #-----------------------------------------------------------------------
 # Setup locations to find externally maintained test data.
 #-----------------------------------------------------------------------
-   include(${PROJECT_NAME}Data)
+   include(${PROJECT_NAME}ExternalData)
 
    add_subdirectory(SoftwareGuide)
 
